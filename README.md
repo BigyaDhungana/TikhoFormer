@@ -1,4 +1,4 @@
-# TikhoNet: A Classification-Guided Framework for Image Deblurring
+# TikhoFormer: A Classification-Guided Framework for Image Deblurring
 
 This repository contains the official implementation of the **Classification-Guided TikhoFormer**, a novel two-stage framework for efficient and specialized image deblurring. Our approach first identifies the blur type (Gaussian or Box) and then deploys a specialized, lightweight deblurring network to achieve high-quality results with a fraction of the computational cost of monolithic models.
 
@@ -26,8 +26,8 @@ The core of our method is a two-stage pipeline:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/TikhoNet.git
-    cd TikhoNet
+    git clone https://github.com/mukulboro/TikhoFormer.git
+    cd TikhoFormer
     ```
 
 2.  **Create a virtual environment (recommended):**
